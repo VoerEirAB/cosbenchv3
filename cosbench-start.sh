@@ -32,7 +32,7 @@ OSGI_CONFIG=conf/.$SERVICE_NAME
 TOMCAT_CONFIG=conf/$SERVICE_NAME-tomcat-server.xml
 
 TOOL="nc"
-TOOL_PARAMS=""
+TOOL_PARAMS="-w 1"
 
 #-------------------------------
 # MAIN
